@@ -1,0 +1,1 @@
+<iframe width="1020" height="500" src="{{ $singleSignOnUrl }}" frameborder="0" allowfullscreen></iframe>

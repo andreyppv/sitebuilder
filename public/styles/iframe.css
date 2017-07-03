@@ -1,0 +1,257 @@
+#dropBox li {list-style-position: outside}
+#dropBox .contentedit ul {padding: 0 0 0 25px}
+#droppable_content {min-height:400px;}
+
+.outline-element {outline: 1px solid #c00;}
+.data-rapidcms-engine {min-height:25px;}
+.blankbox {padding: 10px; height:auto; min-height:400px;}
+.highlight_bg {background: #fff none repeat scroll 0 0 !important;}
+.highlightLine{border-top:2px solid #39f;display:block;height:100px;margin-top:2px;overflow:hidden}
+.activemove.theme2bginn {border: 1px solid #fff; border-radius: 3px;}
+[contentEditable="true"]:empty:not(:focus)::before {content: attr(data-ph)}
+.contentedit:focus {border: 0!important;outline: none!important}
+.main_title:focus,
+.contactTxt:focus {box-shadow: 0 0 4px rgba(85, 185, 255, 0.5);border: none}
+
+#droppable_content li {
+    width: auto;
+    position: relative;
+    padding: 0;
+    margin: 0 0 7px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+    clear: both;
+}
+#droppable_content li.activemove {
+    cursor: move
+}
+#droppable_content li .contentedit {
+    border: 0 solid #f8f2e6;
+    border-radius: 3px;
+    padding: 10px 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: auto;
+    position: relative;
+    min-height: 43px;
+}
+#droppable_content li:hover .closeImg {
+    height: 20px;
+    width: 20px;
+    background: url(../images/Close.png) no-repeat right top #fff;
+    float: right;
+    border-radius: 10px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 1000;
+    cursor: pointer
+}
+#droppable_content li .form_element_control {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 11;
+    display: none
+}
+#droppable_content li:hover .form_element_control {
+    display: block
+}
+.activemove.theme2bginn {
+    border: 1px solid #fff;
+    border-radius: 3px
+}
+.activemove.theme2bginn:hover {
+    border: 1px solid #88CEFF;
+    border-radius: 3px
+}
+.form_element_control .controlMidOuter {
+    left: 50%;
+    margin-left: -48px;
+    padding: 5px 20px 0;
+    position: absolute;
+    top: -12px
+}
+.form_element_control .controlMidOuter .controlMidBg {
+    background: #fff url(../images/controlmid.png) no-repeat center center;
+    border: 1px solid #1c881c;
+    border-radius: 2px;
+    cursor: move;
+    height: 15px;
+    transition: background-color .05s ease-in 0s, border-color .05s ease-in 0;
+    -moz-transition: background-color .05s ease-in 0s, border-color .05s ease-in 0;
+    -webkit-transition: background-color .05s ease-in 0s, border-color .05s ease-in 0;
+    width: 55px
+}
+.form_element_control .deleteOuter {
+    padding: 5px 5px 10px 10px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    z-index: 2
+}
+.form_element_control .deleteOuter .deleteBg {
+    background: #fff;
+    border: 1px solid red;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 21px;
+    transition: background-color .05s ease-in 0s, border-color .05s ease-in 0;
+    -moz-transition: background-color .05s ease-in 0s, border-color .05s ease-in 0;
+    -webkit-transition: background-color .05s ease-in 0s, border-color .05s ease-in 0;
+    width: 21px
+}
+.form_element_control .deleteOuter .deleteBg i {
+    padding: 2px 4px;
+    color: red
+}
+
+.sky-form .input,
+.sky-form .select,
+.sky-form .textarea,
+.sky-form .radio,
+.sky-form .checkbox,
+.sky-form .toggle,
+.sky-form .button {
+    display: block;
+    position: relative
+}
+.sky-form .input[type="file"] {
+    height: 39px!important
+}
+.sky-form .input-file .button {
+    float: none;
+    font-size: 12px;
+    height: 31px;
+    line-height: 31px;
+    margin: 0;
+    padding: 0 20px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    font-family: opensansbold
+}
+.sky-form .button {
+    border: 0 none;
+    color: #FFF;
+    cursor: pointer;
+    float: right;
+    font: 300 15px/39px opensans;
+    height: 39px;
+    margin: 10px 0 0 20px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0 25px;
+    text-decoration: none;
+    opacity: .8;
+    transition: opacity .2s ease 0;
+    border-radius: 2px
+}
+.sky-form .input,
+.sky-form .select,
+.sky-form .textarea,
+.sky-form .radio,
+.sky-form .checkbox,
+.sky-form .toggle,
+.sky-form .button {
+    display: block;
+    position: relative
+}
+.sky-form .input-file .button input {
+    cursor: pointer;
+    font-size: 30px;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%
+}
+.sky-form .input input,
+.sky-form .select select,
+.sky-form .textarea textarea,
+.sky-form .radio i,
+.sky-form .checkbox i,
+.sky-form .toggle i,
+.sky-form .icon-append,
+.sky-form .icon-prepend {
+    border-color: #E5E5E5;
+    transition: border-color .3s ease 0
+}
+.sky-form .input input,
+.sky-form .select select,
+.sky-form .textarea textarea {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #FFF;
+    border-radius: 0;
+    color: #404040;
+    display: block;
+    font: 14px/19px robotoregular;
+    height: 39px;
+    outline: medium none;
+    padding: 8px 10px;
+    width: 100%;
+    border: 1px solid #ccc
+}
+.sky-form .select i:after,
+.sky-form .select i:before {
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute;
+    right: 0
+}
+.sky-form .select i {
+    background: #FFF;
+    box-shadow: 0 0 0 12px #FFF;
+    height: 11px;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    width: 5px
+}
+.sky-form .select i:before {
+    border-bottom: 4px solid #404040;
+    top: 0
+}
+.sky-form .select i:after {
+    border-top: 4px solid #404040;
+    bottom: 0
+}
+.sky-form label.input.input-file {
+    background: #fff none repeat scroll 0 0;
+}
+.sky-form .button {
+    background: url(../images/uploadimage.png) no-repeat center center!important;
+    height: 147px!important;
+    margin: 0!important;
+    padding: 0!important;
+    width: 100%!important
+}
+.sky-form .button .inputfile {
+    width: 100%!important;
+    height: 135px!important
+}
+.sky-form #imageloadbutton .button {
+    position: static!important;
+    height: 144px!important;
+    margin: 10px 0 0 30px !important;
+    padding: 0!important;
+    position: static!important;
+    width: 70%!important
+}
+.sky-form #imageloadbutton .button.mainLeftBrowse {
+    background: url(../images/uploadimage2.png) no-repeat center top!important;
+    font-size: 0;
+    height: 82px!important;
+    margin: 2px 0 0!important;
+    padding: 0!important;
+    position: static!important;
+    width: 20%!important
+}

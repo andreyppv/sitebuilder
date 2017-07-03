@@ -1,0 +1,299 @@
+{
+    "id":"RC-TMPL-01",
+    "name":"Rapidcms Checkout",
+    "mobile":true,
+    "notes":"Initial Release 1.0",
+    "syntax":"4",
+    "version":"1.0",
+    "color_variations":{
+        "variation_1":{
+            "name": "red",
+            "hex":"#DDCCDD",
+            "thumb_main":"red_thumb_main.jpg",
+            "thumb_checkout":"red_thumb_checkout.jpg",
+            "thumb_cart":"red_thumb_cart.jpg"
+        },
+        "variation_2":{
+            "name": "blue",
+            "hex":"#FF44FF",
+            "thumb_main":"blue_thumb_main.jpg",
+            "thumb_checkout":"blue_thumb_checkout.jpg",
+            "thumb_cart":"blur_thumb_cart.jpg"
+        },
+        "variation_3": {
+            "name": "teal",
+            "hex": "#FF3E3E",
+            "thumb_main": "teal_thumb_main.jpg",
+            "thumb_checkout": "teal_thumb_checkout.jpg",
+            "thumb_cart": "teal_thumb_cart.jpg"
+         },
+         "variation_4": {
+            "name": "gold",
+            "hex": "#A2B3C4",
+            "thumb_main": "gold_thumb_main.jpg",
+            "thumb_checkout": "gold_thumb_checkout.jpg",
+            "thumb_cart": "gold_thumb_cart.jpg"
+         },
+         "variation_5": {
+            "name": "brown",
+            "hex": "#F4A4A2",
+            "thumb_main": "brown_thumb_main.jpg",
+            "thumb_checkout": "brown_thumb_checkout.jpg",
+            "thumb_cart": "brown_thumb_cart.jpg"
+         }
+    },
+    "pages":{
+        "index":{
+            "name": "Lander",    
+            "elements":[
+                {
+                    "id":"main_heading",
+                    "name":"html_main_heading",
+                    "type":"html"
+                },
+                {
+                    "id":"main_sublte",
+                    "name":"html_main_sublte",
+                    "type":"html"
+                },
+                {
+                    "id":"main_heading_sublte",
+                    "name":"html_main_heading_sublte",
+                    "type":"html"
+                },
+                {
+                    "id":"banner_title",
+                    "name":"html_banner_title",
+                    "type":"html"
+                },
+                {
+                    "id":"banner_subtitle",
+                    "name":"html_banner_subtitle",
+                    "type":"html"
+                },
+                {
+                    "id":"feature_1",
+                    "name":"html_feature_1",
+                    "type":"html"
+                },
+                {
+                    "id":"feature_2",
+                    "name":"html_feature_2",
+                    "type":"html"
+                },
+                {
+                    "id":"feature_3",
+                    "name":"html_feature_3",
+                    "type":"html"
+                },
+                {
+                    "id":"feature_4",
+                    "name":"html_feature_4",
+                    "type":"html"
+                },
+                {
+                    "id":"feature_4",
+                    "name":"html_feature_4",
+                    "type":"html"
+                },                
+                {
+                    "id":"description_heading",
+                    "name":"html_description_heading",
+                    "type":"html"
+                },
+                {
+                    "id":"description_paragraph",
+                    "name":"html_description_paragraph",
+                    "type":"html"
+                },
+                {
+                    "id":"descrpition_picture",
+                    "name":"picture_descrpition_picture",
+                    "type":"picture",
+                    "data": {
+                        "width": 323,
+                        "height": 323
+                    }
+                },
+                {
+                    "id":"footer_link_1",
+                    "name":"html_footer_link_1",
+                    "type": "html"
+                },
+                {
+                    "id":"footer_link_2",
+                    "name":"html_footer_link_2",
+                    "type": "html"
+                },
+                {
+                    "id":"footer_link_3",
+                    "name":"html_footer_link_3",
+                    "type": "html"
+                },
+                {
+                    "id":"address_text",
+                    "name":"html_address_text",
+                    "type": "html"
+                },
+                {
+                    "id":"legal_text",
+                    "name":"html_legal_text",
+                    "type": "html"
+                },
+                {
+                    "id":"blankspace",
+                    "name":"box_blankspace",
+                    "type": "blankbox"
+                },
+                {
+                    "id":"blankspace",
+                    "name":"box_blankspace",
+                    "type": "blankbox"
+                }
+            ]
+        },
+        "checkout":{
+            "name": "Checkout",    
+            "elements":[
+                {
+                    "id":"main_heading",
+                    "name":"html_main_heading",
+                    "type":"html"
+                },
+                {
+                    "id":"main_sublte",
+                    "name":"html_main_sublte",
+                    "type":"html"
+                },
+                {
+                    "id":"main_heading_sublte",
+                    "name":"html_main_heading_sublte",
+                    "type":"html"
+                },
+                {
+                    "id":"banner_legal_text",
+                    "name":"html_banner_legal_text",
+                    "type":"html"
+                },
+                {
+                    "id":"form_heading",
+                    "name":"html_form_heading",
+                    "type":"html"
+                }, 
+                {
+                    "id":"descrpition_picture_order",
+                    "name":"picture_descrpition_picture_order",
+                    "type":"picture",
+		    "data": {
+			    "width": 323,
+			    "height": 323
+		    }
+                },
+                {
+                    "id":"footer_link_1",
+                    "name":"html_footer_link_1",
+                    "type": "html"
+                },
+                {
+                    "id":"footer_link_2",
+                    "name":"html_footer_link_2",
+                    "type": "html"
+                },
+                {
+                    "id":"footer_link_3",
+                    "name":"html_footer_link_3",
+                    "type": "html"
+                },
+                {
+                    "id":"address_text",
+                    "name":"html_address_text",
+                    "type": "html"
+                },
+                {
+                    "id":"legal_text",
+                    "name":"html_legal_text",
+                    "type": "html"
+                },
+                {
+                    "id":"blankspace",
+                    "name":"box_blankspace",
+                    "type": "blankbox"
+                }             
+            ]
+        },
+        "thanks":{
+		"name": "Thanks",	
+            "elements":[
+                {
+                    "id":"main_heading",
+                    "name":"html_main_heading",
+                    "type":"html"
+                },
+                {
+                    "id":"main_sublte",
+                    "name":"html_main_sublte",
+                    "type":"html"
+                },
+                {
+                    "id":"main_heading_sublte",
+                    "name":"html_main_heading_sublte",
+                    "type":"html"
+                },
+                {
+                    "id":"thanks_heading",
+                    "name":"html_thanks_heading",
+                    "type": "html"
+                },
+                {
+                    "id":"thanks_sublte",
+                    "name":"html_thanks_sublte",
+                    "type": "html"
+                },
+                {
+                    "id":"order_heading",
+                    "name":"html_order_heading",
+                    "type": "html"
+                },
+                {
+                    "id":"thanks_picture",
+                    "name":"image_descrpition_picture_order",
+                    "type":"image",
+		    "data": {
+			    "width": 323,
+			    "height": 323
+		    }
+                },  
+                {
+                    "id":"footer_link_1",
+                    "name":"html_footer_link_1",
+                    "type": "html"
+                },
+                {
+                    "id":"footer_link_2",
+                    "name":"html_footer_link_2",
+                    "type": "html"
+                },
+                {
+                    "id":"footer_link_3",
+                    "name":"html_footer_link_3",
+                    "type": "html"
+                },
+                {
+                    "id":"address_text",
+                    "name":"html_address_text",
+                    "type": "html"
+                },
+                {
+                    "id":"legal_text",
+                    "name":"html_legal_text",
+                    "type": "html"
+                },
+                {
+                    "id":"blankspace",
+                    "name":"box_blankspace",
+                    "type": "blankbox"
+                }
+            ]
+        }	    
+    }
+}
